@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All TestCases"  parallel="methods" data-provider-thread-count="50" verbose="10">
+    <test name="JewelAPI">
+        <parameter name="tagName" value="@all">
+        </parameter>
+        <classes><!--            <class name="com.gemini.generic.bdd.GemJarCucumberBase"/>-->
+            <class name="com.gemini.generic.bdd.GemJarCucumberBase"/>
+        </classes>
+    </test>
+</suite>

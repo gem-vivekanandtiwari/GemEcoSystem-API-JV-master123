@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="716ad1ce-e365-4c88-9181-6bf06bdf3eb4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JAOuuzsDAU4DNs0vdudTMi8ejc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/vi.tiwari/Desktop/GEMJAR NEW/GemEcoSystem-API-JV-master/GemEcoSystem-API-JV-master/src/main/resources/features",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vi.tiwari\Desktop\GEMJAR NEW\GemEcoSystem-API-JV-master\GemEcoSystem-API-JV-master\src\main\resources\features" />
+      <recent name="C:\Users\vi.tiwari\Desktop\GEMJAR NEW\GemEcoSystem-API-JV-master\GemEcoSystem-API-JV-master\src\main\resources" />
+      <recent name="C:\Users\vi.tiwari\Desktop\GEMJAR NEW\GemEcoSystem-API-JV-master\GemEcoSystem-API-JV-master\src\main\java\com\qa\gemini" />
+      <recent name="C:\Users\vi.tiwari\Desktop\GEMJAR NEW\GemEcoSystem-API-JV-master\GemEcoSystem-API-JV-master" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.jewelAPIBDD-jar-with-dependencies.jar">
+    <configuration name="GemJarMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gemini.generic.utils.GemJarMainClass" />
+      <module name="GemEcoSystem-API-JV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gemini.generic.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qa.gemini.utility.Main" />
+      <module name="GemEcoSystem-API-JV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.gemini.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: File upload by text with wrong bridge token" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/GemEcoSystem.feature" />
+      <option name="GLUE" value="com.gemini.generic.bdd com.gemini.generic.feature.utils com.qa.gemini.StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GemEcoSystem-API-JV" />
+      <option name="NAME_FILTER" value="^File upload by text with wrong bridge token$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^File upload by text with wrong bridge token$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: File upload by text with wrong bridge token" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Sample-Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/GemEcoSystem.feature" />
+      <option name="GLUE" value="com.gemini.generic.bdd com.gemini.generic.feature.utils com.qa.gemini.StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GemEcoSystem-API-JV" />
+      <option name="NAME_FILTER" value="^Sample\-Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Sample\-Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Sample-Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jewelAPIBDD-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/jewelAPIBDD-jar-with-dependencies.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.jewelAPIBDD-jar-with-dependencies.jar" />
+        <item itemvalue="Application.GemJarMainClass" />
+        <item itemvalue="Cucumber Java.Scenario: File upload by text with wrong bridge token" />
+        <item itemvalue="Cucumber Java.Scenario: Sample-Test" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="716ad1ce-e365-4c88-9181-6bf06bdf3eb4" name="Changes" comment="" />
+      <created>1671517649350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671517649350</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qa/gemini/commonUtils/utils.java</url>
+          <line>499</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qa/gemini/commonUtils/utils.java</url>
+          <line>500</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.1.0/gemjar-core-1.1.0-sources.jar!/com/gemini/generic/bdd/GemJarCucumberBase.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.1.0/gemjar-core-1.1.0-sources.jar!/com/gemini/generic/bdd/GemJarCucumberBase.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.1.0/gemjar-core-1.1.0-sources.jar!/com/gemini/generic/utils/CommonUtils.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.1.0/gemjar-core-1.1.0-sources.jar!/com/gemini/generic/bdd/GemJarCucumberBase.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.1.0/gemjar-core-1.1.0-sources.jar!/com/gemini/generic/reporting/GemReportingUtility.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qa/gemini/utility/Main.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.1.2/gemjar-core-1.1.2-sources.jar!/com/gemini/generic/utils/GemJarMainClass.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/gemecosystem/gemjar/gemjar-core/1.1.2/gemjar-core-1.1.2-sources.jar!/com/gemini/generic/bdd/GemJarCucumberBase.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
