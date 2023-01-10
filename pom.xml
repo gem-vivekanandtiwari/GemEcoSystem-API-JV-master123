@@ -39,7 +39,6 @@
                         <mainClass>com.gemini.generic.utils.GemJarMainClass</mainClass>
                     </manifest>
                 </archive>
-                <outputDirectory>${basedir}</outputDirectory>
                 <finalName>jewelAPIBDD</finalName>
             </configuration>
         </plugin>
@@ -57,7 +56,6 @@
                         <mainClass>com.gemini.generic.utils.GemJarMainClass</mainClass>
                     </manifest>
                 </archive>
-                <outputDirectory>${basedir}</outputDirectory>
                 <finalName>jewelAPIBDD</finalName>
             </configuration>
             <executions>
