@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>GemEcoSystem-API-JV</artifactId>
+    <artifactId>GemEcoSystem-API-JV-master123</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -39,7 +39,7 @@
                         <mainClass>com.gemini.generic.utils.GemJarMainClass</mainClass>
                     </manifest>
                 </archive>
-                <finalName>jewelAPIBDD</finalName>
+                <!--<finalName>jewelAPIBDD</finalName>-->
             </configuration>
         </plugin>
         <plugin>
@@ -56,7 +56,7 @@
                         <mainClass>com.gemini.generic.utils.GemJarMainClass</mainClass>
                     </manifest>
                 </archive>
-                <finalName>jewelAPIBDD</finalName>
+                <!--<finalName>jewelAPIBDD</finalName>-->
             </configuration>
             <executions>
                 <execution>
