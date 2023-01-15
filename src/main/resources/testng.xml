@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All TestCases"  parallel="methods" data-provider-thread-count="50" verbose="10">
-    <test name="JewelAPI">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All TestCases" data-provider-thread-count="10">
+    <test verbose="2" name="GemEcoSystem-API">
         <classes>
             <class name="com.gemini.generic.bdd.GemJarCucumberBase"/>
         </classes>

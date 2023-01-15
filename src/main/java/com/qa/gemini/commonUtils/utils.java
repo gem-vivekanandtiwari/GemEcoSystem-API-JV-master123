@@ -8,6 +8,7 @@ import com.gemini.generic.utils.ProjectConfigData;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import io.restassured.RestAssured;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpUriRequest;
@@ -427,7 +428,7 @@ public class utils {
 
     public static String token() {
         try {
-            /*String Token;
+            String Token;
             String urlss = ProjectConfigData.getProperty("Login");
             String payload = ProjectSampleJson.getSampleDataString("Login_sampleJson");
             Request request = new Request();
@@ -440,8 +441,7 @@ public class utils {
             JsonObject Boddy = (JsonObject) parser.parse(Body);
             JsonObject to = (JsonObject) Boddy.get("data");
             Token = String.valueOf(to.get("token"));
-            return Token;*/
-            return JewelAPIGlobalVar.bearerToken;
+            return Token;
         } catch (Exception e) {
             GemTestReporter.addTestStep("Final token", "Some error occured while fetching token", STATUS.FAIL);
             e.printStackTrace();
@@ -496,7 +496,7 @@ public class utils {
     }
 
     public static String Gettoken2() throws Exception {
-      /*  String url = ProjectConfigData.getProperty("Gettoken");
+        String url = ProjectConfigData.getProperty("Gettoken");
         String too = null;
         String j = token();
         Response res = null;
@@ -522,8 +522,7 @@ public class utils {
             JsonObject data = body.get("data").getAsJsonObject();
             too = data.get("bridgeToken").getAsString();
         }
-        return too;*/
-        return JewelAPIGlobalVar.bridgeToken;
+        return too;
     }
 
     public static int FileUpload(String url, String filePath, String username, String bt) {
@@ -554,6 +553,35 @@ public class utils {
         }
         return 0;
     }
+
+    public static int AzurefileUpload(String url, String filePath, String jnew) {
+        try {
+            String u = ProjectConfigData.getProperty(url);
+            GemTestReporter.addTestStep("Url of the test case", u, STATUS.INFO);
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            MultipartEntityBuilder entitybuilder = MultipartEntityBuilder.create();
+            entitybuilder.setMode(HttpMultipartMode.BROWSER_COMPATIBLE);
+            entitybuilder.addBinaryBody("file", new File(filePath));
+            HttpEntity mutiPartHttpEntity = entitybuilder.build();
+            RequestBuilder reqbuilder = RequestBuilder.post(u);
+            reqbuilder.setEntity(mutiPartHttpEntity);
+            HttpUriRequest multipartRequest = reqbuilder.build();
+            multipartRequest.setHeader(new BasicHeader("Authorization", "Bearer " + jnew));
+            HttpResponse httpresponse = httpclient.execute(multipartRequest);
+            GemTestReporter.addTestStep("POST Request Verification", "POST request executed Successfully", STATUS.PASS);
+            JsonObject js = (JsonObject) JsonParser.parseString(EntityUtils.toString(httpresponse.getEntity()));
+            String s = String.valueOf(js.get("message"));
+            System.out.println("JSSS: " + s);
+            GemTestReporter.addTestStep("Response Body", String.valueOf(js), STATUS.INFO);
+            GemTestReporter.addTestStep("Response Message", s, STATUS.INFO);
+            GemTestReporter.addTestStep("operation", String.valueOf(js.get("operation")), STATUS.PASS);
+            return httpresponse.getStatusLine().getStatusCode();
+        } catch (IOException e) {
+            GemTestReporter.addTestStep("POST Request Verification", String.valueOf(e), STATUS.FAIL);
+        }
+        return 0;
+    }
+
 
 //    public static int FileUplo22(String url, String filePath, String username, String bt,String sampleName) throws Exception{
 //        try {
@@ -658,7 +686,6 @@ public class utils {
             response = ApiInvocation.handleRequest(request);
             GemTestReporter.addTestStep("POST" + " Request Verification ", "POST" + " Request Executed Successfully", STATUS.PASS);
             GemTestReporter.addTestStep("Response Message", response.getResponseMessage(), STATUS.INFO);
-            GemTestReporter.addTestStep("Request Headers", request.getHeaderMap().toString(), STATUS.INFO);
             if ((response.getResponseBody()) != null) {
                 GemTestReporter.addTestStep("Response Body", response.getResponseBody(), STATUS.INFO);
             } else {
